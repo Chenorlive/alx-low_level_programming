@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * fg
+ * main - start
+ *
+ * Return: 0
 */
 int main(void)
 {

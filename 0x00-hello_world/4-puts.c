@@ -3,7 +3,9 @@
 /* my hello world project */
 
 /**
- * main fun return o
+ * main - start
+ *
+ * Return: 0
 */
 int main(void)
 {

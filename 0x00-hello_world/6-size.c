@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main func 
+ * main -  func
+ *
+ * Return: 0
 */
 
 int main(void)
