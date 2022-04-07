@@ -3,7 +3,7 @@
 int main(void)
 {
 	int intT;
-	char charT
+	char charT;
 	long int longT;
 	long long int longg; 
 	float floatT;
