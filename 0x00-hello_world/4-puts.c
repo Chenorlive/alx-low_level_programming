@@ -5,6 +5,6 @@
 /** main fun return o */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzel");
+	puts("\"Programming is like building a multilingual puzzel", stdout);
 	return (0);
 }
