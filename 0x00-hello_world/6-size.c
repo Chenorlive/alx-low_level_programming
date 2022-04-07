@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/** main func */
+/**
+ * main func 
+*/
 
 int main(void)
 {

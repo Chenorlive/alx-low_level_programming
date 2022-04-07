@@ -2,9 +2,11 @@
 
 /* my hello world project */
 
-/** main fun return o */
+/**
+ * main fun return o
+*/
 int main(void)
 {
-	fputs("\"Programming is like building a multilingual puzzel", stdout);
+	puts("\"Programming is like building a multilingual puzzel");
 	return (0);
 }
