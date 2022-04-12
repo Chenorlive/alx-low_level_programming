@@ -1,4 +1,4 @@
-#include <stdio.h>
+x#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -12,7 +12,7 @@ int main(void)
 {
 	int i;
 
-	for (i = '0'; i < '10'; i++)
+	for (i = '0'; i < 10; i++)
 	{
 		putchar(i);
 	}
