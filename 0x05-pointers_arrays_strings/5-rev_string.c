@@ -6,7 +6,7 @@
  * Return: Nothing
 */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int len = 0;
 
@@ -15,6 +15,4 @@ void print_rev(char *s)
 
 	while (len)
 		_putchar(s[--len]);
-
-	_putchar('\n');
 }
