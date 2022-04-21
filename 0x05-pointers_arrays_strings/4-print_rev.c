@@ -2,7 +2,7 @@
 
 /**
  * print_rev - print the reverse of str
- * @*s: of char
+ * @s: input of char
  * Return: Nothing
 */
 

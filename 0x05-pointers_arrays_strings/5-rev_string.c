@@ -2,17 +2,22 @@
 
 /**
  * print_rev - print the reverse of str
- * @*s: of char
+ * @s: input of char
  * Return: Nothing
 */
 
 void rev_string(char *s)
 {
-	int len = 0;
+	int len = 0, i = 0;
+	char t;
 
 	while (s[len] != '\0')
 		len++;
 
-	while (len)
-		_putchar(s[--len]);
+	while (i < len--)
+	{
+		t = s[i];
+		s[i++] = s[len];
+		s[len] = t;
+	}
 }

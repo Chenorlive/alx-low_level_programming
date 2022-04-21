@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _put - fun
- * @*str: of type string
+ * _put - function to print string.
+ * @str: of type string
  * return: nothing
 */
 
@@ -10,7 +10,7 @@ void _puts(char *str)
 {
 	int i = 0;
 
-	while(str[i] != '\0')
+	while (str[i] != '\0')
 	{
 		_putchar(str[i]);
 		i++;
