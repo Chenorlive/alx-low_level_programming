@@ -1,3 +1,4 @@
+#include "main.h"
 
 /**
  * swap_int - fun to change value
@@ -6,7 +7,8 @@
 
 void swap_int(int *a, int *b)
 {
-	int *tmp = *b;
+	int tmp;
+	tmp = *b;
 	*b = *a;
 	*a = *tmp;
 }
