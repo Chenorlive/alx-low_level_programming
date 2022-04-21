@@ -11,10 +11,10 @@
 int _isupper(int c)
 {
 
-	char text = "A";
+	char text = 'A';
 	int isupper = 0;
 
-	for (; text <= "Z"; text++)
+	for (; text <= 'Z'; text++)
 	{
 		if (c == text)
 		{
@@ -22,6 +22,6 @@ int _isupper(int c)
 			break;
 		}
 	}
-	
+
 	return (isupper);
 }
