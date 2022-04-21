@@ -25,7 +25,7 @@ int _atoi(char *s)
 
 		else if (nf)
 			break;
-		s++
+		s++;
 	}
 
 	if (ss < 0)

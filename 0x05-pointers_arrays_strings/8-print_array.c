@@ -3,7 +3,7 @@
 
 /**
  * print_array - a func to print the value of array
- * @s: input of int
+ * @a: input of int
  * @n: input of int
  * Return: nothing
 */
